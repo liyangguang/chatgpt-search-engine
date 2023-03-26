@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <script/>
+  <ShortName>ChatGPT search engine</ShortName>
+  <Description>Make ChatGPT as a search engine in your browser.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://chatgpt-search-engine.vercel.app/favicon.png</Image>
+  <Url type="text/html" method="GET" template="https://chatgpt-search-engine.vercel.app/?q={searchTerms}" />
+  <SearchForm>https://chatgpt-search-engine.vercel.app/</SearchForm>
+</OpenSearchDescription>
