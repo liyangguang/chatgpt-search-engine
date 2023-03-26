@@ -1,0 +1,29 @@
+{
+	"name": "chatgpt-search-engine",
+	"version": "1.0.0",
+	"description": "A very simple extension to allow you to set ChatGPT as your Chrome's default search engine.",
+	"author": "Yangguang Li <liyangguangcn@gmail.com> (https://liyangguang.com/)",
+	"scripts": {
+		"start": "npm run dev",
+		"dev": "NODE_OPTIONS=--inspect vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"sass": "^1.60.0",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"svelte-preprocess": "^5.0.3",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"svelte-preprocess-import-assets": "^0.2.6"
+	}
+}
