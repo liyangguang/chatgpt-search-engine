@@ -9,6 +9,7 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
+  "omnibox": { "keyword": "gpt" },
   "background": {
     "service_worker": "background.js"
   },

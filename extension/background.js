@@ -11,3 +11,8 @@ chrome.runtime.onMessage.addListener(async (payload, sender, sendResponse) => {
   }
   return true;
 });
+
+chrome.omnibox.onInputEntered.addListener((text) => {
+  queryStore = text;
+  chrome.tabs.create({ url: 'https://chat.openai.com/chat' });
+});
