@@ -9,5 +9,14 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "host_permissions": ["https://chat.openai.com/chat"]
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat", "https://chatgpt-search-engine.vercel.app/*"],
+      "js": ["content-script.js"],
+      "runAi": "document_idle"
+    }
+  ]
 }
